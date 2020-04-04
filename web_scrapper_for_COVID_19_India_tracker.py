@@ -9,7 +9,6 @@ driver.find_element_by_xpath("""//*[@id="0"]/div/table""").click()
 num_of_rows = len(driver.find_elements_by_xpath( """//*[@id="0"]/div/table/tbody/tr""" ))
 num_of_cols = len(driver.find_elements_by_xpath( """//*[@id="0"]/div/table/tbody/tr[3]/td""" ))
 
-s = []
 csv_row = []   
 
 with open(r'C:\Users\WINDOWS\Desktop\corona_data.csv', 'w', newline = "") as csvFile:
