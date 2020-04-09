@@ -13,10 +13,10 @@ driver = webdriver.Chrome(chrome_path)
 driver.get('https://www.linkedin.com/login?')
 
 username = driver.find_element_by_id('username')
-username.send_keys('sruthi921.ani@gmail.com')
+username.send_keys('insert email id')
 
 password = driver.find_element_by_id('password')
-password.send_keys('february')
+password.send_keys('insert password')
 
 sign_in_button = driver.find_element_by_xpath('//*[@type="submit"]')
 sign_in_button.click()
